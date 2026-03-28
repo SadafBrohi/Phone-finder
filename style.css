@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+#phoneContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.card:hover{
+    background-color: #f2f2f2;
+}
+
+#details{
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 2px solid black;
+}
